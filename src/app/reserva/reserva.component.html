@@ -1,0 +1,50 @@
+<h1>DISFRUTA EN TODO MOMENTO</h1>
+<br>
+<p>Haz tu reserva en este apartado para que se te entregue el juego de forma virtual </p>
+
+<div class="container">
+    <div class="image-container">
+      <img src="assets\ju1.jpg" alt="Imagen de videojuego">
+    </div>
+    <div class="form-container">
+      <h1>Formulario de Reserva de Videojuegos</h1>
+      <form (ngSubmit)="onSubmit()" >
+        <div>
+          <label for="fullName">Nombre Completo:</label><br>
+          <input type="text" id="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" required>
+        </div>
+        <div>
+          <label for="game">Juego:</label><br>
+          <select id="game" required>
+            <option value="Action">Red Dead Redemption</option>
+            <option value="Adventure">Red Dead Redemption 2</option>
+            <option value="Role-Playing">The Legend of Zelda Tears of the Kingdom</option>
+            <option value="Strategy">Batman Arkham Ciry</option>
+            <option value="Sports">Fallout New Vegas</option>
+            <option value="Horror">Fallout 3</option>
+          </select>
+        </div>
+        <div>
+          <label for="paymentMethod">Modo de Pago:</label><br>
+          <select id="paymentMethod" required>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="American Express">American Express</option>
+            <option value="Discover">Discover</option>
+            <option value="PayPal">PayPal</option>
+          </select>
+        </div>
+        <div>
+          <label for="creditCardNumber">Número de Tarjeta de Crédito:</label><br>
+          <input type="text" id="creditCardNumber" required>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>

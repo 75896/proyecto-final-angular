@@ -1,0 +1,80 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .form-container {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  form {
+    border: 2px solid #444;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #00f;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #submitBtn {
+    background-color: #00f;
+    color: #fff;
+  }
+  
+  #submitBtn:hover {
+    background-color: #005;
+  }
+  
+  #cancelBtn {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  #cancelBtn:hover {
+    background-color: #500;
+  }
+  
